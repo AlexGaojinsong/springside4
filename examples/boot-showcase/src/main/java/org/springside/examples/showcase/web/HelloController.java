@@ -5,8 +5,8 @@ import org.javasimon.aop.Monitored;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-
 @RestController
+
 public class HelloController {
 
 	@RequestMapping(value = "/hello", produces = MediaTypes.TEXT_PLAIN)
